@@ -2,7 +2,6 @@
   require_once('functions.php'); 
   edit();
 ?>
-
 <?php include(HEADER_TEMPLATE); ?>
 
 <h2>Atualizar Cliente</h2>

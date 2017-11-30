@@ -34,11 +34,12 @@
           <ul class="nav navbar-nav">          
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                    Clientes <span class="caret"></span>
+                    Gerenciar <span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a href="<?php echo BASEURL; ?>customers">Gerenciar Clientes</a></li>
-                    <li><a href="<?php echo BASEURL; ?>customers/add.php">Novo Cliente</a></li>
+                    <li><a href="<?php echo BASEURL; ?>customers">Clientes</a></li>
+                    <li><a href="<?php echo BASEURL; ?>fornecedores">Fornecedores</a></li>
+                    <li><a href="<?php echo BASEURL; ?>produtos">Produtos</a></li>
                 </ul>
             </li>
           </ul>

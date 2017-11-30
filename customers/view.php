@@ -2,7 +2,6 @@
 	require_once('functions.php'); 
 	view($_GET['id']);
 ?>
-
 <?php include(HEADER_TEMPLATE); ?>
 
 <h2>Cliente <?php echo $customer['id']; ?></h2>

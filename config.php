@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 /** O nome do banco de dados*/
 define('DB_NAME', 'aguas_crud');
@@ -18,7 +18,7 @@ if ( !defined('ABSPATH') )
 	
 /** caminho no server para o sistema **/
 if ( !defined('BASEURL') )
-	define('BASEURL', '/crud-aguas/');
+	define('BASEURL', '/pereiraAguas/');
 	
 /** caminho do arquivo de banco de dados **/
 if ( !defined('DBAPI') )
